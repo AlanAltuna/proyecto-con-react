@@ -2,7 +2,9 @@ import React from "react";
 
 const Noticias = (props) => {
     return (
+        
         <div className="main2">
+       <img src="foto2.jpg" alt="portada1" width="100%" height="100%"/>     
     <div className="noticias" id="noti">
         <div className="fotoN"><img src="N1.jpg" width="100%" height="100%" alt="noticia-1"/> </div>
         <h5 className="h5N"><a href="https://sapporet.es/blog/post/vaper-desechable-vs-vaper-recargable.html" target="_blank" rel="noreferrer">VAPER DESECHABLE VS VAPER RECARGABLE</a></h5>

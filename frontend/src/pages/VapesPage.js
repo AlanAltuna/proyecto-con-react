@@ -3,6 +3,7 @@ import React from "react";
 const Vapes = (props) => {
     return (
         <div className="main2">
+            <img src="foto3.jpg" alt="portada3" width="100%" height="100%"/>
     <div className="noticias" id="noti">
         <div className="fotoN"><img src="drag2.jpg" width="100%" height="100%" alt="drag"/> </div>
         <h5 className="h5N">VOOPOO MOD Drag 2</h5>
