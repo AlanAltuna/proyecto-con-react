@@ -1,0 +1,24 @@
+header {
+    width: 100vw;
+    height: 90px;
+    background-color: black;
+    font-family: sans-serif;
+        color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 220px;
+    height: 100px;
+}
+
+.logo > a {
+    padding-top: 30px;
+}
