@@ -1,7 +1,7 @@
 import './App.css';
-
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 import Header from "./components/layout/Header";
 import Nav from "./components/layout/Nav";
@@ -11,6 +11,8 @@ import Inicio from "./pages/InicioPage";
 import Vapes from "./pages/VapesPage";
 import Noticias from "./pages/NoticiasPage";
 import Contacto from "./pages/ContactoPage";
+
+
 
 function App() {
   return (

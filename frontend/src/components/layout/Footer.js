@@ -1,21 +1,25 @@
 import React from "react";
+import "../../styles/layout/Footer.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+  
 const Footer = (props) => {
     return (
         <footer>
-    <div className="logo">
+    <div className="logoFooter">
         <img src="logo.png" width="80px" height="80px" alt="logo"/>
         <a href="#s1">InfoVapes</a>
      </div>
      <div className="partedos">
      <div className="iconos">
-     <i className="fa-brands fa-twitter"></i>
-        <i className="fa-brands fa-facebook"></i>
-        <i className="fa-brands fa-youtube"></i>
-        <i className="fa-regular fa-at"></i>
+     <FontAwesomeIcon className="icon" icon={faTwitter}/>
+     <FontAwesomeIcon className="icon" icon={faFacebook}/>
+     <FontAwesomeIcon className="icon" icon={faEnvelope}/>
+     <FontAwesomeIcon className="icon" icon={faLocationDot}/>
     </div>
-     <div class="derechos">© 2022 InfoVapes. Todos los derechos reservados.</div>
-    
+     <div className="derechos">© 2022 InfoVapes. Todos los derechos reservados.</div>  
 </div>
 </footer>
     )
