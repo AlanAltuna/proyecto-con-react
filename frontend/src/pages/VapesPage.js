@@ -1,11 +1,13 @@
 import React from "react";
+import "../styles/pages/VapesPage.css"
+
 
 const Vapes = (props) => {
     return (
         <div className="main2">
-            <img src="foto3.jpg" alt="portada3" width="100%" height="100%"/>
+            <img src="foto4.jpg" alt="portada3" width="100%" height="100%" className="fotoPortada"/>
     <div className="noticias" id="noti">
-        <div className="fotoN"><img src="drag2.jpg" width="100%" height="100%" alt="drag"/> </div>
+        <div className="fotoN"><img src="drag2.jpg"  alt="drag"/> </div>
         <h5 className="h5N">VOOPOO MOD Drag 2</h5>
         <p className="pN">Dimensiones: 88.3 x 51 x 26.5mm <br/>
         Batería: 2 x 18650<br/>
@@ -16,7 +18,7 @@ const Vapes = (props) => {
     </p>
     </div>
     <div className="noticias">
-        <div className="fotoN"><img src="pulse2.jpg" width="100%" height="100%" alt="pulse 2"/> </div>
+        <div className="fotoN"><img src="pulse2.jpg"  alt="pulse 2"/> </div>
         <h5 className="h5N">Vandy Vape Pulse 2 BF</h5>
         <p className="pN">
             Dimensiones: 82.3 mm x 54.7 mm x 28.4mm <br/>
@@ -29,7 +31,7 @@ const Vapes = (props) => {
 
     </div>
     <div className="noticias">
-        <div className="fotoN"><img src="drag3.jpg" width="100%" height="100%" alt="drag 3"/> </div>
+        <div className="fotoN"><img src="drag3.jpg"  alt="drag 3"/> </div>
         <h5 className="h5N">Voopoo Kit Drag 3
         </h5>
         <p className="pN">Dimensiones: 138 x 52 x 25mm <br/>
@@ -41,7 +43,7 @@ const Vapes = (props) => {
             Incluye el nuevo chip GENE.FAN 2.0<br/></p>
     </div>
 
-    <div className="noticias"><div class="fotoN"><img src="swag80.jpg" width="100%" height="100%" alt="swag"/> </div>
+    <div className="noticias"><div class="fotoN"><img src="swag80.jpg" alt="swag"/> </div>
     <h5 className="h5N">Vaporesso Swag PX80 80W</h5>
     <p className="pN">Dimensiones: 47.9×25.1×99.7mm <br/>
         Batería: 1 x 18650<br/>

@@ -1,0 +1,37 @@
+.fdos {
+    height: 40px;
+    width: 400px;
+}
+
+.ftres {
+    height: 200px;
+width: 400px;
+}
+
+.form1 {
+    width: 400px;
+    height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.formulario {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.enviar {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

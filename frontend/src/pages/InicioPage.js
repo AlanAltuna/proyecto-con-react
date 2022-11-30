@@ -1,10 +1,11 @@
 import React from "react";
+import "../styles/pages/InicioPage.css"
 
 const Inicio = (props) => {
     return (
         
         <div className="main">
-            <img src="foto.jpg" alt="portada1" width="100%" height="100%"/>
+            <img src="foto.jpg" alt="portada1" width="100%" height="100%" className="fotoPortada"/>
     <section id="s1">
         <h2>¿Qué es el vapeo?</h2>
         <p>Los cigarrillos electrónicos, con los cuales se realiza el vapeo, no queman tabaco. El proceso de vaporización se produce a una temperatura mucho menor que la necesaria para producir combustión, y por lo tanto, no se producen las reacciones químicas tóxicas del humo de tabaco. El vapor del cigarrillo electrónico no contiene nicotina, y en muchos sentidos no es diferente de la niebla que producen las máquinas de vapor de los clubes y discotecas, por ejemplo. En cuanto a los efectos del cigarrillo electrónico en quienes lo rodean, debemos decir que no existe evidencia de que el vapor producido por este tipo de dispositivos sea nocivo para la salud de las personas que están a su alrededor.
