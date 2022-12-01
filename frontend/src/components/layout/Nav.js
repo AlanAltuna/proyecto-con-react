@@ -7,10 +7,10 @@ const Nav = (props) => {
         <nav>
 <div className="navBar">
 <ul>
-<li><NavLink activeClassName="activo" exact to="/">INICIO</NavLink></li>
-<li><NavLink activeClassName="activo" exact to="/Vapes">VAPES</NavLink></li>
-<li><NavLink activeClassName="activo" exact to="/Noticias">NOTICIAS</NavLink></li>
-<li><NavLink activeClassName="activo" exact to="/Contacto">CONTACTO</NavLink></li>
+<li><NavLink to="/" className={({isActive}) => isActive ? "Activo" : undefined }>INICIO</NavLink></li>
+<li><NavLink to="/Vapes" className={({isActive}) => isActive ? "Activo" : undefined }>VAPES</NavLink></li>
+<li><NavLink to="/Noticias" className={({isActive}) => isActive ? "Activo" : undefined }>NOTICIAS</NavLink></li>
+<li><NavLink to="/Contacto" className={({isActive}) => isActive ? "Activo" : undefined }>CONTACTO</NavLink></li>
 </ul>
 </div>
         </nav>
