@@ -3,7 +3,7 @@ header {
     height: 90px;
     background-color: black;
     font-family: sans-serif;
-        color: white;
+    color: white;
     font-size: 30px;
     text-decoration: none;
     display: flex;
@@ -15,11 +15,42 @@ header {
 .logo {
     display: flex;
     align-content: center;
-    justify-content: space-between;
-    width: 220px;
+  justify-content: flex-end;
+    width: 50%;
     height: 90px;
 }
 
 .logo > a {
     padding-top: 30px;
+}
+
+.button {
+    height: 90px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    visibility: hidden;
+}
+
+.ham {
+    cursor: pointer;
+    margin:0;
+    padding: 0;
+}
+
+.ham span {
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+}
+
+/* DISPOSITIVOS MOVILES */
+
+@media screen and (max-width:768px) {
+    .button {
+        visibility: visible;
+    }
 }

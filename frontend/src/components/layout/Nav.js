@@ -1,6 +1,12 @@
 import {NavLink} from "react-router-dom";
 import React from "react";
 import "../../styles/layout/Nav.css"
+import "../../styles/layout/Header.css"
+
+const button = document.querySelector('.button');
+const enlaces = document.querySelector('navBar');
+
+
 
 const Nav = (props) => {
     return (
@@ -14,6 +20,8 @@ const Nav = (props) => {
 </ul>
 </div>
         </nav>
+
+         
     )
 }
 
