@@ -38,6 +38,10 @@ li:hover {
     opacity: 0.9;
 }
 
+.burguer {
+    display: none;
+}
+
 /* DISPOSITIVOS MOVILES */
 
 @media screen and (max-width:768px) {
@@ -56,11 +60,15 @@ li:hover {
 
     .navBar {
        height: 0px;
-       /* display: none;  */
+       display: none
     }
 
-    .navBar.activado {
+    .navBar.active {
         display: flex;
+    }
+
+    .burguer {
+        display: inline;
     }
    
 }

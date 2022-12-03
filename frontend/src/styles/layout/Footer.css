@@ -38,3 +38,16 @@ footer {
 .logoFooter > img {
     padding-top: 10px;
 }
+
+/* DISPOSITIVOS MOVILES */
+
+@media screen and (max-width:768px) {
+    .partedos {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .iconos {
+        width: 260px;
+    }
+}
