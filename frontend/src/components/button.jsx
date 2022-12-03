@@ -27,13 +27,13 @@ const Burguer = styled.div`
   display: inline-block;
 }
 .nav-icon-5 span{
-  background-color:#fff;
+  background-color:#B2BABB;
   position: absolute;
   border-radius: 2px;
   transition: .3s cubic-bezier(.8, .5, .2, 1.4);
   width:100%;
   height: 4px;
-  transition-duration: 500ms
+  transition-duration: 500ms;
 }
 .nav-icon-5 span:nth-child(1){
   top:0px;
