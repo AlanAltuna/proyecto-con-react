@@ -1,0 +1,138 @@
+* {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+}
+header {
+  width: 100%;
+  height: 100px;
+ display: flex;
+ justify-content: center;
+
+ border-bottom: 2px white solid;
+}
+
+
+
+
+
+.logo {
+  width: 15%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.logo > a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;  
+}
+
+
+.fa-solid{
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+ display: none;
+}
+
+
+
+body {
+  background-color: black;
+  opacity: 0.5;
+}
+
+
+
+a {
+  text-decoration: none;
+  color:white;  
+}
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.8;
+  border-top: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+
+
+.partedos {
+width: 400px;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.iconos {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  padding-top: 40px;
+}
+.iconos:hover {
+  cursor: pointer;
+}
+
+.derechos {
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  nav > .listaNav > ul {
+      width: 200px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+  }
+ .fa-solid {
+  display: block;
+ }
+ nav {
+  flex-direction: row-reverse;
+ }
+ .submenu {
+  position: absolute;
+  left: 250px;
+  top: 110px;
+  visibility: hidden;
+ }
+ .listaNav {
+  padding-top: 5px;
+  visibility: hidden;
+ }
+ #check:checked ~ .listaNav {
+visibility: visible;
+ }
+
+ .sub > .submenu {
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+
+
+
+}
