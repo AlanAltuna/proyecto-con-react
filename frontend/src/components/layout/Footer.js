@@ -19,7 +19,7 @@ const Footer = (props) => {
      <FontAwesomeIcon className="icon" icon={faEnvelope}/>
      <FontAwesomeIcon className="icon" icon={faLocationDot}/>
     </div>
-     <div className="derechos">© 2022 InfoVapes. Todos los derechos reservados.</div>  
+     <div className="derechos">© 2023 InfoVapes. Todos los derechos reservados.</div>  
 </div>
 </footer>
     )
