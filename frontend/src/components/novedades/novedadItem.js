@@ -1,15 +1,13 @@
 import React from "react";
 
 const NovedadItem = (props) => {
-    const {title, subtitle, imagen, body} = props;
+    const {title, subtitle, imagen} = props;
 
     return (
         <div className="novedades">
             <h1>{title}</h1>
+            <div className="imgg"><img src={imagen} alt="vap" id="imagenN"></img></div>
             <h3>{subtitle}</h3>
-            <img src={imagen} alt="vap"></img>
-            <div dangerouslySetInnerHTML={{ __html: body }} ></div>
-            <hr></hr>
         </div>
     );
 }
