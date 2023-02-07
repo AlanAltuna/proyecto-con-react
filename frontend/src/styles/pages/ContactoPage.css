@@ -10,7 +10,7 @@ width: 400px;
 
 .form1 {
     width: 400px;
-    height: 500px;
+    height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
